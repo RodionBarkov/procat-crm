@@ -1,0 +1,26 @@
+.menuLeftUl {
+    margin: 0;
+    padding: 0;
+    font-size: 15pt;
+    list-style: none;
+}
+
+.menuLeftUl a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    margin: 10px 0;
+    padding: 10px 10px;
+    transition: 0.4s;
+    background-color: rgb(255, 255, 255);
+}
+
+.link:hover {
+    background-color: aqua;
+}
+
+.menuLeftUl a.activeLink .link {
+    background-color: rgb(255, 238, 0);
+}
